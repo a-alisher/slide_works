@@ -7,3 +7,16 @@ print(a > b and a < c)
 a = (7 % 3)
 b = (a * 4.8)
 print(b)
+//3
+a = 5
+b = 4
+c = a + b
+d = a + b
+print(c == d)
+
+//4
+a = 5
+b = 4
+c = a + b
+d = a - b
+print(c == d)
