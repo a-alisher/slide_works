@@ -1,5 +1,6 @@
 #1
 from ast import While
+from operator import index, indexOf
 
 
 lang1 = "Rust"
@@ -28,3 +29,11 @@ x = -1
 for i in languages:
     x+=1
     print(x, i)
+
+#5
+
+for i in range(0, 11, 1):
+    print(i)
+for i in (range(8, -1, -1)):
+    i+=1
+    print(i)
