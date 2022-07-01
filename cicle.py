@@ -15,3 +15,8 @@ for i in languages:
     print(i)
     if i == 'php':
         break
+#3
+x = 7
+for i in range(5):
+    x = x * 7
+    print(x)
