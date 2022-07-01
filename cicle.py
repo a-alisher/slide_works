@@ -20,3 +20,11 @@ x = 7
 for i in range(5):
     x = x * 7
     print(x)
+
+#4
+
+languages = ['go', 'java', 'php', 'python', 'ruby', 'javascript']
+x = -1
+for i in languages:
+    x+=1
+    print(x, i)
