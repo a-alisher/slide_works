@@ -39,12 +39,19 @@
 
 
 
-numbers = []
-reverse_numbers = []
-for i in range(1,11):
-    numbers.append(i)
-    reverse_numbers = numbers + numbers[-2:-11:-1]
-    print(reverse_numbers)
+# numbers = []
+# reverse_numbers = []
+# for i in range(1,11):
+#     numbers.append(i)
+#     reverse_numbers = numbers + numbers[-2:-11:-1]
+#     print(reverse_numbers)
 
-
+#6
+names = ['Максат', 'Лязат', "Данияр", "Айбек", "Атай", "Салават", "Адинай", "Жоомарт", "Алымбек",
+"Эрмек", "Дастан", "Бекмамат", "Аслан"]
+len_names = len(names)
+print(len_names)
+for i in range(0,1):
+    names_1 = names[2:13:2]
+    print(names_1)
 
