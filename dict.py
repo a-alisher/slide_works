@@ -13,10 +13,16 @@
 #     print(info)
 
 #3
-for x in range(5):
-    spec = {}
-    name_user = input('Введите свое имя ')
-    speciality = input('Введите свою Профессию ')
-    spec[name_user] = speciality
-    print(f"Здравствуйте, {name_user}. У Вас прекрасная профессия - {speciality}")
-    
+# for x in range(5):
+#     spec = {}
+#     name_user = input('Введите свое имя ')
+#     speciality = input('Введите свою Профессию ')
+#     spec[name_user] = speciality
+#     print(f"Здравствуйте, {name_user}. У Вас прекрасная профессия - {speciality}")
+
+#4
+menu = {'lagman': 120, 'plov': '120', 'borsh': 100}
+menu['besh-barmak'] = 130
+menu['lagman'] = 135
+del menu['borsh']
+print(menu)
