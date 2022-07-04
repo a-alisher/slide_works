@@ -47,11 +47,16 @@
 #     print(reverse_numbers)
 
 #6
+# names = ['Максат', 'Лязат', "Данияр", "Айбек", "Атай", "Салават", "Адинай", "Жоомарт", "Алымбек",
+# "Эрмек", "Дастан", "Бекмамат", "Аслан"]
+# len_names = len(names)
+# print(len_names)
+# for i in range(0,1):
+#     names_1 = names[2:13:2]
+#     print(names_1)
+
+#7
 names = ['Максат', 'Лязат', "Данияр", "Айбек", "Атай", "Салават", "Адинай", "Жоомарт", "Алымбек",
 "Эрмек", "Дастан", "Бекмамат", "Аслан"]
-len_names = len(names)
-print(len_names)
-for i in range(0,1):
-    names_1 = names[2:13:2]
-    print(names_1)
-
+for i in range(1):
+    print(names[2::2])
