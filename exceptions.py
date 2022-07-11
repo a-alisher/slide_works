@@ -36,18 +36,41 @@
 #     print("ZERO Error")
 
 # 3 exercise
-lst = []
+# lst = []
+# try:
+#     for i in range(10):
+#         lst.append(i)
+#         a = list(reversed(lst))
+#         sls_obj = slice('0','8')
+#         print([sls_obj])
+# except IndentationError:
+#     print("IndentationError")
+# except NameError:
+#     print("NameError")
+# except SyntaxError:
+#     print("syntaxerror")
+# except ZeroDivisionError:
+#     print("ZERO Error")
+
+
+# Перенесите к себе код #3 и
+# исправьте все ошибки, сделайте так чтобы код работал.
+# Если не знаете как исправить ошибку создайте для неё except выражение.4 exercise:
+
+a = (0)
+b = 1
+numbers = []
 try:
-    for i in range(10):
-        lst.append(i)
-        a = list(reversed(lst))
-        sls_obj = slice('0','8')
-        print([sls_obj])
-except IndentationError:
-    print("IndentationError")
+    while b > a:
+        numbers += b
+        b += 1
 except NameError:
     print("NameError")
 except SyntaxError:
-    print("syntaxerror")
-except ZeroDivisionError:
-    print("ZERO Error")
+    print("SyntaxError")
+except ValueError:
+    print("ValueError")
+except IndentationError:
+    print("IndentationError")
+except TypeError:
+    print("TypeError")
