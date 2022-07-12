@@ -5,24 +5,42 @@
 # В итоге у вас на рабочем столе должен появиться файл directories.txt.
 # Откройте этот файл с помощью Python и выведите на экран все директории из directories.txt.
 
-with open('directories.txt', 'w') as f:
-    f.write('''Applications
-Bitrix24
-Bitrix24-aiza.ozgorush@gmail.com@nkgarant.bitrix24.kz
-Bitrix24-ualina25.09@gmail.com@o2development.bitrix24.kz
-Desktop
-Documents
-Downloads
-Google Drive
-Library
-Movies
-Music
-Pictures
-Projects
-Public
-PycharmProjects
-hello_world
-setuptools-33.1.1.zip
-''')
-with open('directories.txt', 'r') as f:
+# with open('directories.txt', 'w') as f:
+#     f.write('''Applications
+# Bitrix24
+# Bitrix24-aiza.ozgorush@gmail.com@nkgarant.bitrix24.kz
+# Bitrix24-ualina25.09@gmail.com@o2development.bitrix24.kz
+# Desktop
+# Documents
+# Downloads
+# Google Drive
+# Library
+# Movies
+# Music
+# Pictures
+# Projects
+# Public
+# PycharmProjects
+# hello_world
+# setuptools-33.1.1.zip
+# ''')
+# with open('directories.txt', 'r') as f:
+#     print(f.read())
+
+
+# 2 exercise
+
+users = {}
+# for user in users:
+login = input("введите свой логин: ")
+psw = input("Введите свой пароль: ")
+users[login] = psw
+print(users)
+
+# with open('users.txt', 'w') as f:
+#     f.write(str(users))
+
+with open('users.txt', 'r') as f:
     print(f.read())
+
+
